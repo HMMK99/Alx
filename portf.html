@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #212529;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #444;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 10%;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #212529;
+}
+  </style>
+  <title>Hatem Kamal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hatem Kamal Portfolio</h1>
+    <nav>
+      <a href="https://www.linkedin.com/in/hatem-m-kamal/">About Me</a>
+      <a href="https://github.com/hmmk99">Projects</a>
+      <a href="https://www.linkedin.com/in/hatem-m-kamal/">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Welcome to Hatem Kamal Portfolio</h2>
+      <p>This is Hatem Kamal Portfolio website, where I showcase my work and skills. I am a web developer with experience in HTML, CSS, JavaScript, and React. I am also proficient in Git and GitHub.</p>
+      <img src="./portPhoto.jpg" alt="My photo" style="max-width: 10%;">
+      </br><button><a href="https://github.com/hmmk99">Learn More</a></button>
+    </section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with a strong desire to learn and grow. I am always looking for new challenges and opportunities to improve my skills. I am also a team player and I enjoy working with others to create innovative solutions.</p>
+      <p>In my spare time, I enjoy playing video games, hiking, and spending time with my family and friends.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/egypt-shops/xshop-docs"><h3>X-Shop</h3></a>
+          <!-- <img src="./dj.jpg" alt="My First Website"> -->
+          <p>XShop is a SaaS platform for Egyptian shops, that helps keep up with Egypt`s digital transformation and financial inclusion.
+            <h4>Inventory & PoS</h4>
+            <ul>
+              <li>Shop owners get an up-to-date system to manage their shops with minimal cost</li> 
+              <li> The system consists of a portal for the shop admin to manage staff members and define different types of users like managers, cashiers, and data entry clerks</li> 
+              <ul><li> cashiers can create invoices for customers</li> 
+              <li> data entry specialists enter new products available in the shop</li> 
+              <li> the system tracks sold products and update the DB accordingly    </li> </ul> 
+            </ul>
+            <h4>Financial Inclusion</h4>
+            <p>A portal for governmental supervisors to track the shops` incomes and calculate taxes accordingly (extract reports)</p>
+            <h4>Online shopping</h4>
+            <ul>
+            <li>A marketplace for customers to order products online</li>
+            <li>This will be available based on shops that turn on this feature</li>
+            <li>A customer shall use xshop’s mobile app to search for products</li>
+            <li>Search results shall be from the nearest shop, per se</li>
+            <li>A user can track the status of their order and get an invoice upon payment</li>
+          </ul>
+          </p>
+        </li>
+        <li>
+          <a href="https://github.com/HMMK99/udemy-free-coupons"><h3>Udemy Free Copoun</h3></a>
+          <p>This is a React app that I created to learn React. It is a simple to-do list app that allows users to add, edit, and delete tasks.</p>
+        </li>
+        <li>
+          <a href="https://github.com/HMMK99"><h3>My GitHub Profile</h3></a>
+          <p>This is my GitHub profile, where I host my open source projects. I am also active in the GitHub community and I enjoy contributing to other people's projects.</p>
+          
+        </li>
+      </ul>
+    </section>
+    <!-- <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or would like to work with me, please contact me using the form below.</p>
+      <form action="#">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button>Send</button>
+      </form>
+    </section> -->
+  </main>
+  <footer>
+    &copy; 2023 Hatem Kamal Portfolio
+  </footer>
+</body>
+</html>
